@@ -1,0 +1,24 @@
+.tech-chip {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  width: fit-content;
+  padding: 1px 10px;
+  font-size: 10pt;
+
+  span {
+    padding-left: 3px;
+  }
+}
+
+.chips-stack {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    margin: 3px 0;
+
+    &:not(:last-child) {
+      margin-right: 3px;
+    }
+  }
+}
