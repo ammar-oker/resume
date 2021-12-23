@@ -39,7 +39,7 @@ const experiences = [
       location: 'Istanbul, TR',
       website: 'https://getir.com/',
       linkedin: 'https://www.linkedin.com/company/getir/',
-      logo: '/images/getir.png',
+      logo: '/resume/images/getir.png',
     },
   },
   {
@@ -67,7 +67,7 @@ const experiences = [
       location: 'Istanbul, TR',
       website: 'https://www.voltlines.com/en-ae/',
       linkedin: 'https://www.linkedin.com/company/voltlines/',
-      logo: '/images/voltlines.png',
+      logo: '/resume/images/voltlines.png',
     },
   },
   {
@@ -88,7 +88,7 @@ const experiences = [
       location: 'Istanbul, TR',
       website: 'https://lippogrup.com/',
       linkedin: 'https://www.linkedin.com/company/lippo-grup/',
-      logo: '/images/lippo.png',
+      logo: '/resume/images/lippo.png',
     },
   },
 ];
