@@ -32,8 +32,7 @@ const experiences = [
       <ReduxChip key="getir-redux" />,
       <SagaChip key="getir-saga" />,
     ],
-    startDate: dayjs('11-01-2021').format('MMM YYYY'),
-    endDate: 'Present',
+    startDate: dayjs('11-01-2021'),
     company: {
       name: 'Getir',
       location: 'Istanbul, TR',
@@ -55,8 +54,8 @@ const experiences = [
       <JenkinsChip key="vl-jenkins" />,
       <WordPressChip key="vl-wp" />,
     ],
-    startDate: dayjs('09-01-2020').format('MMM YYYY'),
-    endDate: dayjs('09-01-2021').format('MMM YYYY'),
+    startDate: dayjs('09-01-2020'),
+    endDate: dayjs('09-30-2021'),
     highlights: [
       // 'I was responsible for all web projects in the company.',
       'Reduced the bundle size of one of our products by 70% which led to significant performance increase.',
@@ -81,8 +80,8 @@ const experiences = [
       <WordPressChip key="lipo-wp" />,
       <LaravelChip key="lipo-laravel" />,
     ],
-    startDate: dayjs('04-01-2019').format('MMM YYYY'),
-    endDate: dayjs('08-01-2020').format('MMM YYYY'),
+    startDate: dayjs('04-01-2019'),
+    endDate: dayjs('08-31-2020'),
     company: {
       name: 'Lippo Grup',
       location: 'Istanbul, TR',
@@ -94,6 +93,8 @@ const experiences = [
 ];
 
 export default function WorkExperience() {
+  const formatDate = date => date.format('YYYY MMM');
+
   return (
     <section>
       <h3 className="fs-6 text-uppercase text-primary">
@@ -112,7 +113,8 @@ export default function WorkExperience() {
                 className="text-muted d-block mb-2"
                 style={{ fontSize: '10pt' }}
               >
-                {startDate} ~ {endDate}
+                {formatDate(startDate)} ~{' '}
+                {endDate ? formatDate(endDate) : 'Present'}
               </span>
             </div>
             <div className="d-flex align-items-center mb-2">
@@ -150,12 +152,7 @@ export default function WorkExperience() {
                 </ul>
               </div>
             </div>
-            {tech && (
-              <div className="chips-stack">
-                {/*{[...tech].map((Tech, i) => (<Tech key={company.name + i} />))}*/}
-                {[...tech]}
-              </div>
-            )}
+            {tech && <div className="chips-stack">{[...tech]}</div>}
             {highlights && (
               <ul>
                 {highlights.map((item, i) => (
