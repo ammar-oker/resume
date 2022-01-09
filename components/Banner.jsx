@@ -64,19 +64,6 @@ export default function Banner() {
             <li className="pb-1">
               <a
                 className="text-decoration-none text-white"
-                href="tel:00905314585679"
-              >
-                <FontAwesomeIcon
-                  height={'20px'}
-                  className="fs-6"
-                  icon={faMobileScreenButton}
-                />{' '}
-                +90 (531) 458 56 79
-              </a>
-            </li>
-            <li className="pb-1">
-              <a
-                className="text-decoration-none text-white"
                 href="mailto:oker.ammar@gmail.com"
               >
                 <FontAwesomeIcon height={'20px'} className="fs-6" icon={faAt} />{' '}
