@@ -91,6 +91,10 @@ export default function MetaTags() {
       <meta property="og:title" content="Ammar Oker - Software Engineer" />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content="Ammar Oker - Software Engineer" />
+      <meta
+        property="og:image"
+        content="/resume/images/ammar-oker-resume.webp"
+      />
       {/* #OG tags */}
 
       {/* Twitter tags */}
@@ -98,6 +102,10 @@ export default function MetaTags() {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:site" content="@ammar_oker" />
       <meta name="twitter:creator" content="@ammar_oker" />
+      <meta
+        name="twitter:image"
+        content="/resume/images/ammar-oker-resume.webp"
+      />
       {/* #Twitter tags */}
 
       <meta
