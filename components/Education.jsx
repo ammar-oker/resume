@@ -8,7 +8,7 @@ export default function Education({ className }) {
       </h3>
       <div className="d-flex">
         <img
-          src="/resume/images/uludag.png"
+          src="/resume/images/uludag.webp"
           alt="Bursa Uludağ University"
           height="50px"
           width="50px"

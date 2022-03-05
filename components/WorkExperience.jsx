@@ -32,7 +32,7 @@ const experiences = [
       <ReduxChip key="getir-redux" />,
       <SagaChip key="getir-saga" />,
     ],
-    startDate: '11-01-2021',
+    startDate: '11/01/2021',
     company: {
       name: 'Getir',
       location: 'Istanbul, TR',
@@ -54,8 +54,8 @@ const experiences = [
       <JenkinsChip key="vl-jenkins" />,
       <WordPressChip key="vl-wp" />,
     ],
-    startDate: '09-01-2020',
-    endDate: '09-30-2021',
+    startDate: '09/01/2020',
+    endDate: '09/30/2021',
     highlights: [
       // 'I was responsible for all web projects in the company.',
       'Reduced the bundle size of one of our products by 70% which led to significant performance increase.',
@@ -80,8 +80,8 @@ const experiences = [
       <WordPressChip key="lipo-wp" />,
       <LaravelChip key="lipo-laravel" />,
     ],
-    startDate: '04-01-2019',
-    endDate: '08-31-2020',
+    startDate: '04/01/2019',
+    endDate: '08/31/2020',
     company: {
       name: 'Lippo Grup',
       location: 'Istanbul, TR',
