@@ -12,8 +12,8 @@ export default function Resume() {
   return (
     <>
       <Head>
-        <title>Ammar Oker - Resume</title>
         <MetaTags />
+        <title>Ammar Oker - Resume</title>
         <meta property="og:url" content="https://ammar-oker.github.io/resume" />
       </Head>
       <div className="bg-primary text-white">
