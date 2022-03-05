@@ -114,12 +114,13 @@ export default function MetaTags() {
       />
       {/* OG tags */}
       <meta name="description" content={description} />
+      <meta name="author" content="Ammar Oker" />
       <meta property="og:type" content="article" />
       <meta property="og:url" content={hostUrl} />
       <meta property="og:title" content="Ammar Oker - Software Engineer" />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content="Ammar Oker - Software Engineer" />
-      <meta property="og:image" content={ogImage} />
+      <meta name="image" property="og:image" content={ogImage} />
       {/* #OG tags */}
       {/* Twitter tags */}
       <meta name="twitter:card" content="summary_large_image" />
