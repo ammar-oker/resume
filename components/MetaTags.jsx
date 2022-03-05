@@ -1,6 +1,10 @@
 import React from 'react';
 
+const hostUrl =
+  process.env.NEXT_PUBLIC_HOST_URL || 'https://ammar-oker.github.io';
+
 export default function MetaTags() {
+  const featuredImageUrl = `${hostUrl}/resume/images/ammar-oker-resume.webp`;
   const description =
     'Experienced Javascript Developer with a demonstrated history of working in the internet industry. Skilled in React.js, Express.js, and Full-Stack Development.';
   return (
@@ -107,13 +111,11 @@ export default function MetaTags() {
       {/* OG tags */}
       <meta name="description" content={description} />
       <meta property="og:type" content="article" />
+      <meta property="og:url" content={hostUrl} />
       <meta property="og:title" content="Ammar Oker - Software Engineer" />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content="Ammar Oker - Software Engineer" />
-      <meta
-        property="og:image"
-        content="/resume/images/ammar-oker-resume.webp"
-      />
+      <meta property="og:image" content={featuredImageUrl} />
       {/* #OG tags */}
 
       {/* Twitter tags */}
@@ -121,10 +123,7 @@ export default function MetaTags() {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:site" content="@ammar_oker" />
       <meta name="twitter:creator" content="@ammar_oker" />
-      <meta
-        name="twitter:image"
-        content="/resume/images/ammar-oker-resume.webp"
-      />
+      <meta name="twitter:image" content={featuredImageUrl} />
       {/* #Twitter tags */}
 
       <meta
