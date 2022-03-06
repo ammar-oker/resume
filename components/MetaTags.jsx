@@ -4,8 +4,8 @@ const hostUrl =
   process.env.NEXT_PUBLIC_HOST_URL || 'https://ammar-oker.github.io';
 
 export default function MetaTags() {
-  const ogImage = `${hostUrl}/resume/images/ammar-oker-resume.webp`;
-  const twitterImage = `${hostUrl}/resume/images/ammar-oker-resume-twitter.webp`;
+  const ogImage = `${hostUrl}/resume/images/ammar-oker-resume.png`;
+  const twitterImage = `${hostUrl}/resume/images/ammar-oker-resume-twitter.png`;
   const description =
     'Experienced Javascript Developer with a demonstrated history of working in the internet industry. Skilled in React.js, Express.js, and Full-Stack Development.';
   return (
@@ -16,7 +16,6 @@ export default function MetaTags() {
       <meta property="og:title" content="Ammar Oker - Software Engineer" />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content="Ammar Oker - Software Engineer" />
-      <meta name="image" property="og:image" content={ogImage} />
       <meta property="og:image:url" content={ogImage} />
       <meta property="og:image:type" content="image/webp" />
       <meta property="og:image:width" content="1200" />
