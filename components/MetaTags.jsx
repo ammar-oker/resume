@@ -16,7 +16,7 @@ export default function MetaTags() {
       <meta property="og:title" content="Ammar Oker - Software Engineer" />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content="Ammar Oker - Software Engineer" />
-      <meta property="og:image:url" content={ogImage} />
+      <meta property="og:image" content={ogImage} />
       <meta property="og:image:type" content="image/webp" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
