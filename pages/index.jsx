@@ -7,6 +7,7 @@ import WorkExperience from '../components/WorkExperience';
 import Skills from '../components/Skills';
 import Education from '../components/Education';
 import Languages from '../components/Languages';
+import Projects from '../components/Projects';
 
 export default function Resume() {
   return (
@@ -29,6 +30,7 @@ export default function Resume() {
           <div className="col-12 col-sm-5">
             <Skills />
             <Education className="pt-4" />
+            <Projects className="pt-4" />
             <Languages className="pt-4" />
           </div>
         </div>
